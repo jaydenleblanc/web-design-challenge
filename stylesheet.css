@@ -1,6 +1,77 @@
+body {
+    font-family: merriweather;
+    }
+
+.sidenav {
+height: 100%;
+width: 175px;
+position: fixed;
+z-index: 1;
+top: 0px;
+left: 0px;
+background: #E8EAE3;
+overflow-x: hidden;
+padding: 8px 0;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #373833;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #FA2742;
+}
+
+.main {
+margin-left: 140px;
+font-size: 28px;
+padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px}
+}
+
+
+
 h1 {
     color: magenta;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    text-decoration: underline;
 }
+
+
+a {
+    font-size: 20px
+}
+
+p {
+    font-size: 20px;
+    text-align: center
+}
+
+.landing {
+    display: table-cell;
+    width: 85%;
+    vertical-align:top;
+}
+
+article {
+    height: 300px;
+    width: 30%
+}
+
+h2{
+    text-align:center;
+}
+
+
+
+
+
